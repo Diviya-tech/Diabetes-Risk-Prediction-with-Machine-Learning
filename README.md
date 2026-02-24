@@ -58,7 +58,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Missing Values — Before Preprocessing
 
-![Missing Values Heatmap](results/missing_values_heatmap.png)
+![Missing Values Heatmap](Results/missing_values_heatmap.png)
 
 > SkinThickness and Insulin had the highest proportion of invalid zero values — replaced with median imputation.
 
@@ -66,7 +66,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Feature Distributions
 
-![Feature Distributions](results/feature_distributions.png)
+![Feature Distributions](Results/feature_distributions.png)
 
 > Glucose follows a near-normal distribution. Insulin and SkinThickness show heavy right skew — confirming the need for imputation.
 
@@ -74,13 +74,13 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Pearson Correlation — Before Preprocessing
 
-![Correlation Before](results/correlation_before.png)
+![Correlation Before](Results/correlation_before.png)
 
 ---
 
 ### Pearson Correlation — After Preprocessing
 
-![Correlation After](results/correlation_after.png)
+![Correlation After](Results/correlation_after.png)
 
 > Preprocessing reduced spurious correlations — notably Insulin's correlation with SkinThickness dropped from 0.18 → 0.16 after removing invalid zeros.
 
@@ -88,7 +88,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Elbow Method — Optimal K Selection
 
-![Elbow Method](results/elbow_method.png)
+![Elbow Method](Results/elbow_method.png)
 
 > K = 5 selected as optimal — lowest error rate of **0.255** across all tested values.
 
@@ -96,7 +96,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Top 3 Features Selected for KNN
 
-![Feature Importance](results/feature_importance.png)
+![Feature Importance](Results/feature_importance.png)
 
 > **Glucose** is by far the strongest predictor, followed by BMI and Age — consistent with clinical diabetes risk factors.
 
@@ -104,7 +104,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### ROC Curve — KNN (K=5)
 
-![ROC Curve](results/roc_curve.png)
+![ROC Curve](Results/roc_curve.png)
 
 > **AUC = 0.79** — the model significantly outperforms random classification (AUC = 0.5).
 
@@ -112,7 +112,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Confusion Matrix — KNN (K=5)
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](Results/confusion_matrix.png)
 
 | Metric | Value |
 |--------|-------|
@@ -127,7 +127,7 @@ Diabetes affects millions globally and early detection significantly improves pa
 
 ### Error Rate vs K Value
 
-![Error Rate vs K](results/error_rate_kvalue.png)
+![Error Rate vs K](Results/error_rate_kvalue.png)
 
 > Error rate stabilizes around 0.276 for most K values — K=5 and K=11 show the lowest error rates.
 
@@ -163,7 +163,7 @@ jupyter notebook
 
 ```
 Diabetes-Risk-Prediction-with-Machine-Learning/
-├── results/
+├── Results/
 │   ├── missing_values_heatmap.png
 │   ├── feature_distributions.png
 │   ├── correlation_before.png
