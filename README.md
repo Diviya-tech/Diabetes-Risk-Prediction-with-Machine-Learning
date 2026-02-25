@@ -1,4 +1,4 @@
-[# 🩺 Diabetes Risk Prediction with KNN Classifier
+# 🩺 Diabetes Risk Prediction with KNN Classifier
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-red?logo=scikit-learn)
@@ -193,4 +193,4 @@ Diabetes-Risk-Prediction-with-Machine-Learning/
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/sridivyadasari)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/Diviya-tech)
-](https://diabetes-risk-prediction-with-machine-learning-boyy5wpj7c9bfhh.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit-FF4B4B?style=flat&logo=streamlit)](https://diabetes-risk-prediction-with-machine-learning-boyy5wpj7c9bfhh.streamlit.app/)
